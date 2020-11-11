@@ -19,7 +19,7 @@ html, body {
   padding: 15px;
 }
 
-.top-nav a{
+.top-nav .opt a{
   background-color: blue;
   overflow: hidden;
   box-shadow: 0 2px 4px rgba(0,0,0,.5);
@@ -32,12 +32,12 @@ html, body {
   border-radius: 5px;
 }
 
-.top-nav a:hover{
+.top-nav .opt a:hover{
   background-color: gray;
   color: black;
 }
 
-.top-nav a.active{
+.top-nav .opt a.active{
   background-color: gray;
   color: white;
 }
