@@ -2,7 +2,6 @@ html, body {
   height: 100%;
 }
 
-
 .logo {
   width: 150px;
   
@@ -43,9 +42,11 @@ html, body {
   color: white;
 }
 
-.r {
+.opt {
   float: right;
 }
+
+
 
 /* footer */
 .footer {
