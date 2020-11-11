@@ -1,20 +1,27 @@
+html, body {
+  height: 100%;
+}
+
 
 .logo {
   width: 150px;
   
 }
-/* Nav Bar */
-.nav-bar {
+
+/* Top Nav Bar */
+.top-nav {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
-.nav-bar li {
+
+.top-nav li {
   display: inline;
   font-size: 20px;
   padding: 15px;
 }
-.nav-bar a{
+
+.top-nav a{
   background-color: blue;
   overflow: hidden;
   box-shadow: 0 2px 4px rgba(0,0,0,.5);
@@ -22,20 +29,60 @@
   line-height: 2em;
   color: white;
   text-align: center;
-  padding: 2em 4em;
+  padding: 2em 3.5em;
   text-decoration: none;
 }
 
-.nav-bar a:hover{
+.top-nav a:hover{
   background-color: gray;
   color: black;
 }
 
-.nav-bar a.active{
+.top-nav a.active{
   background-color: gray;
   color: white;
 }
 
-.right {
-	float: right;
+.r {
+  float: right;
 }
+
+/* footer */
+.footer {
+  background-color: gray;
+  color: black;
+  height: 350px;
+  position: relative;
+}
+.footer .content {
+  height: 350px;
+  border: 1px solid red;
+  display: flex;
+}
+.footer .content .contacts{
+  flex: 1;
+  border: 1px solid white;
+}
+.footer .content .follow{
+  flex: 1;
+  border: 1px solid white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
