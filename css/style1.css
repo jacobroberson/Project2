@@ -1,1 +1,41 @@
 
+.logo {
+  width: 150px;
+  
+}
+/* Nav Bar */
+.nav-bar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.nav-bar li {
+  display: inline;
+  font-size: 20px;
+  padding: 15px;
+}
+.nav-bar a{
+  background-color: blue;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0,0,0,.5);
+  display: inline-block;
+  line-height: 2em;
+  color: white;
+  text-align: center;
+  padding: 2em 4em;
+  text-decoration: none;
+}
+
+.nav-bar a:hover{
+  background-color: gray;
+  color: black;
+}
+
+.nav-bar a.active{
+  background-color: gray;
+  color: white;
+}
+
+.right {
+	float: right;
+}
