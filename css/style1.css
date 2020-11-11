@@ -86,4 +86,9 @@ html, body {
 }
 
 /* Middle Information */
-
+.sample {
+  font-size: 30px;
+}
+.sample table, th, td {
+  border: 1px solid black;
+}
