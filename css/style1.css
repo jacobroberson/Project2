@@ -43,7 +43,7 @@ html, body {
 }
 
 .logo {
-  width: 175px;
+  height: 7em;
 }
 
 /* footer */
@@ -53,6 +53,8 @@ html, body {
   height: 175px;
   position: relative;
   text-align: center;
+  width: 100%;
+  padding-top: 50px;
 }
 .footer .content {
   height: 175px;
@@ -88,7 +90,35 @@ html, body {
 /* Middle Information */
 .sample {
   font-size: 30px;
+  text-align: center;
+  padding-top: 25px;
 }
-.sample table, th, td {
-  border: 1px solid black;
+.sample th, td {
+  border: 2px solid blue;
+  padding: 5px;
 }
+.sample table {
+  display: inline-block;
+  width: 49%;
+  height: 700px;
+}
+.sample th{
+  height: 100px;
+}
+.sample td{
+  height: 550px;
+}
+.sample .att {
+  font-size: 22px;
+}
+.slide{
+  width: 90%;
+}
+
+/* Media Querys per google standards 425 mobile, 426-769 tablet, 770-max laptop */
+@media only screen and (min-width: 426px){
+}
+@media only screen and (min-width: 770px){
+}
+
+
