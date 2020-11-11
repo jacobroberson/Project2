@@ -1,0 +1,98 @@
+html, body {
+  height: 100%;
+}
+
+/* Top Nav Bar */
+.top-nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  font-size: 24px;
+}
+
+.top-nav li {
+  display: inline;
+  font-size: 20px;
+  padding: 15px;
+}
+
+.top-nav .opt a{
+  background-color: blue;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0,0,0,.5);
+  display: inline-block;
+  line-height: 2em;
+  color: white;
+  text-align: center;
+  padding: 2em 3.5em;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.top-nav .opt a:hover{
+  background-color: gray;
+  color: black;
+}
+
+.top-nav .opt a.active{
+  background-color: gray;
+  color: white;
+}
+
+.opt {
+  float: right;
+}
+
+.logo {
+  height: 7em;
+}
+
+/* footer */
+.footer {
+  background-color: gray;
+  color: black;
+  height: 175px;
+  position: relative;
+  text-align: center;
+  width: 100%;
+  padding-top: 50px;
+}
+.footer .content {
+  height: 175px;
+  display: flex;
+}
+
+.footer .content .contacts{
+  flex: 1;
+}
+.footer .content .contacts span{
+  display: block;
+  margin-bottom: 15px;
+  font-size: 28px;
+}
+
+.footer .content .follow{
+  flex: 1;
+}
+.footer .content .follow .social a{
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  display: inline-block;
+  color: black;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+.footer .content .follow .social a:hover{
+  color: blue;
+  border: 2px solid blue;
+}
+
+/* Media Querys per google standards 425 mobile, 426-769 tablet, 770-max laptop */
+@media only screen and (min-device-width: 426px) {
+
+}
+
+@media only screen and (min-device-width: 770px) {
+
+}
