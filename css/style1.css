@@ -3,8 +3,7 @@ html, body {
 }
 
 .logo {
-  width: 150px;
-  
+  width: 175px;
 }
 
 /* Top Nav Bar */
@@ -30,6 +29,7 @@ html, body {
   text-align: center;
   padding: 2em 3.5em;
   text-decoration: none;
+  border-radius: 5px;
 }
 
 .top-nav a:hover{
@@ -52,38 +52,37 @@ html, body {
 .footer {
   background-color: gray;
   color: black;
-  height: 350px;
+  height: 175px;
   position: relative;
+  text-align: center;
 }
 .footer .content {
-  height: 350px;
-  border: 1px solid red;
+  height: 175px;
   display: flex;
 }
+
 .footer .content .contacts{
   flex: 1;
-  border: 1px solid white;
 }
+.footer .content .contacts span{
+  display: block;
+  margin-bottom: 15px;
+  font-size: 1.2em;
+}
+
 .footer .content .follow{
   flex: 1;
-  border: 1px solid white;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.footer .content .follow .social a{
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  display: inline-block;
+  color: black;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+.footer .content .follow .social a:hover{
+  color: blue;
+  border: 2px solid blue;
+}
