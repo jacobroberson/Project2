@@ -7,6 +7,7 @@ html, body {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  font-size: 24px;
 }
 
 .top-nav li {
@@ -67,7 +68,7 @@ html, body {
 .footer .content .contacts span{
   display: block;
   margin-bottom: 15px;
-  font-size: 1.2em;
+  font-size: 28px;
 }
 
 .footer .content .follow{
@@ -89,7 +90,7 @@ html, body {
 
 /* Middle Information */
 .sample {
-  font-size: 30px;
+  font-size: 40px;
   text-align: center;
   padding-top: 25px;
 }
@@ -100,7 +101,7 @@ html, body {
 .sample table {
   display: inline-block;
   width: 99%;
-  height: 700px;
+  height: 720px;
 }
 .sample th{
   height: 100px;
@@ -109,28 +110,42 @@ html, body {
   height: 550px;
 }
 .sample .att {
-  font-size: 22px;
+  font-size: 30px;
 }
 .slide{
   width: 90%;
 }
 
 /* Media Querys per google standards 425 mobile, 426-769 tablet, 770-max laptop */
-@media only screen and (min-device-width: 426px){
+@media only screen and (min-device-width: 426px) {
   .sample {
     font-size: 38px;
   }
   .sample table {
     width: 99%;
+    height: 725px;
   }
-  .sample.att {
+  .sample .att {
     font-size: 30px;
   }
-
 }
 
-@media only screen and (min-device-width: 770px){
+@media only screen and (min-device-width: 770px) {
+  .sample {
+    font-size: 30px;
+  }
   .sample table {
+    display: inline-block;
     width: 48%;
+    height: 800px;
+  }
+  .sample th{
+    height: 150px;
+  }
+  .sample td{
+    height: 600px;
+  }
+  .sample .att {
+    font-size: 25px;
   }
 }
