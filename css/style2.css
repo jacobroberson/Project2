@@ -1,7 +1,59 @@
 html, body {
   height: 100%;
 }
-
+.middleabout h1 {
+  font-family: 'Catamaran', sans-serif;
+  font-size: 2.441em;
+}
+.middleabout h2 {
+  font-size: 1.563em;
+  text-align: center;
+}
+.middleabout ul {
+  text-align: center;
+  font-style: italic;
+  font-style: normal;
+  text-decoration: underline;
+}
+.middleabout li {
+  text-align: center;
+  font-style: italic;
+  list-style-type: none;
+}
+.history {
+  padding-bottom: 3em;
+}
+.history p{
+  text-align: center;
+  font-size: 1.25em;  
+}
+.constitution {
+  text-align: center;
+}
+.journal {
+  text-align: center;
+}
+.accordion {
+  background-color: blue;
+  color: white;
+  cursor: pointer;
+  width: 75%;
+  text-align: center;
+  margin: .5em;
+  transition: 0.2s;
+}
+.accordion:hover {
+  background-color: gray;
+  color: black;
+}
+.panel{
+  padding: 18px 0;
+  display: none;
+  overflow: hidden;
+}
+.button h2 {
+  font-size: 2.441em;
+}
 /* Top Nav Bar */
 .top-nav {
   list-style-type: none;
@@ -46,7 +98,6 @@ html, body {
 .logo {
   height: 7em;
 }
-
 /* footer */
 .footer {
   background-color: gray;
@@ -56,6 +107,7 @@ html, body {
   text-align: center;
   width: 100%;
   padding-top: 50px;
+  top: 15px;
 }
 .footer .content {
   height: 175px;
@@ -90,9 +142,25 @@ html, body {
 
 /* Media Querys per google standards 425 mobile, 426-769 tablet, 770-max laptop */
 @media only screen and (min-device-width: 426px) {
-
+.middleabout h1 {
+  line-height: .5em;
 }
-
+.middleabout h2 {
+  font-size: 1.953em;
+  text-align: left;
+  font-weight: bolder;
+  text-indent: 2em;
+  line-height: .5em;
+  padding: .25rem;
+}
+.middleabout p {
+  text-align: left;
+}
 @media only screen and (min-device-width: 770px) {
-
+.middleabout ul {
+  font-size: 1.953em;
+}
+.middleabout li {
+  font-size: 1.563em;
+}
 }
