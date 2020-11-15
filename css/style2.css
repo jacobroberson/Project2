@@ -11,7 +11,7 @@ html, body {
   font-size: 1.563em;
   text-align: center;
 }
-.middleabout ul {
+.middleabout ul p {
   text-align: center;
   font-style: italic;
   font-style: normal;
@@ -159,7 +159,7 @@ html, body {
   text-align: left;
 }
 @media only screen and (min-device-width: 770px) {
-.middleabout ul {
+.middleabout ul p {
   font-size: 1.953em;
 }
 .middleabout li {
