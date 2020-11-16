@@ -89,10 +89,10 @@ html, body {
 }
 
 /* Media Querys per google standards 425 mobile, 426-769 tablet, 770-max laptop */
-@media only screen and (min-device-width: 426px) {
+@media screen and (min-width: 426px) {
 
 }
 
-@media only screen and (min-device-width: 770px) {
+@media screen and (min-width: 770px) {
 
 }

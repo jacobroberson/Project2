@@ -11,7 +11,7 @@ html, body {
   font-size: 1.563em;
   text-align: center;
 }
-.middleabout ul {
+.middleabout ul p {
   text-align: center;
   font-style: italic;
   font-style: normal;
@@ -143,7 +143,7 @@ html, body {
 }
 
 /* Media Querys per google standards 425 mobile, 426-769 tablet, 770-max laptop */
-@media only screen and (min-device-width: 426px) {
+@media screen and (min-width: 426px) {
 .middleabout h1 {
   line-height: .5em;
 }
@@ -158,8 +158,9 @@ html, body {
 .middleabout p {
   text-align: left;
 }
-@media only screen and (min-device-width: 770px) {
-.middleabout ul {
+}
+@media screen and (min-width: 770px) {
+.middleabout ul p {
   font-size: 1.953em;
 }
 .middleabout li {
