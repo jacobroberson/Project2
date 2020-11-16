@@ -90,62 +90,60 @@ html, body {
 
 /* Middle Information */
 .sample {
-  font-size: 40px;
   text-align: center;
   padding-top: 25px;
 }
-.sample th, td {
-  border: 2px solid blue;
-  padding: 5px;
+.sample .announce h2{
+  font-size: 30px;
+  text-decoration: underline;
 }
-.sample table {
-  display: inline-block;
-  width: 99%;
-  height: 720px;
+.sample .announce p{
+  font-size: 25px;
 }
-.sample th{
-  height: 100px;
-}
-.sample td{
-  height: 550px;
-}
-.sample .att {
+.sample .att h2{
   font-size: 30px;
 }
 .slide{
-  width: 90%;
+  width: 85%;
 }
 
 /* Media Querys per google standards 425 mobile, 426-769 tablet, 770-max laptop */
 @media screen and (min-width: 426px) {
-  .sample {
-    font-size: 38px;
-  }
-  .sample table {
-    width: 99%;
-    height: 725px;
-  }
-  .sample .att {
-    font-size: 30px;
-  }
+.sample {
+  text-align: center;
+  padding-top: 25px;
+}
+.sample .announce h2{
+  font-size: 35px;
+  text-decoration: underline;
+}
+.sample .announce p{
+  font-size: 25px;
+}
+.sample .att h2{
+  font-size: 32px;
+}
+.slide{
+  width: 80%;
+}
 }
 
 @media screen and (min-width: 770px) {
   .sample {
+    text-align: center;
+    padding-top: 25px;
+  }
+  .sample .announce h2{
+    font-size: 30px;
+    text-decoration: underline;
+  }
+  .sample .announce p{
+    font-size: 25px;
+  }
+  .sample .att h2{
     font-size: 30px;
   }
-  .sample table {
-    display: inline-block;
-    width: 48%;
-    height: 800px;
-  }
-  .sample th{
-    height: 150px;
-  }
-  .sample td{
-    height: 600px;
-  }
-  .sample .att {
-    font-size: 25px;
+  .slide{
+    width: 75%;
   }
 }
