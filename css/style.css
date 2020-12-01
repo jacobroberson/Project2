@@ -1,67 +1,76 @@
 html, body {
   height: 100%;
+  font-family: 'Poppins', arial, sans-serif;
+  background-color: #e4e3b1;
 }
-
+  
 /* Top Nav Bar */
-.top-nav {
+h1 {
+  font-size: 30px;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  color:#006b9f;
+}
+nav {
   list-style-type: none;
   margin: 0;
   padding: 0;
   font-size: 24px;
+  text-align: center;
 }
-
-.top-nav li {
+  
+nav li {
   display: inline;
   font-size: 20px;
   padding: 15px;
 }
-
-.top-nav .opt a{
-  background-color: blue;
+  
+nav a{
+  background-color: #006b9f;
   overflow: hidden;
   box-shadow: 0 2px 4px rgba(0,0,0,.5);
   display: inline-block;
-  line-height: 2em;
+  line-height: 1.5em;
   color: white;
   text-align: center;
-  padding: 2em 3.5em;
+  padding: 1.5em 3.5em;
   text-decoration: none;
   border-radius: 5px;
 }
-
-.top-nav .opt a:hover{
+  
+a:hover{
   background-color: gray;
   color: black;
 }
-
-.top-nav .opt a.active{
+  
+a.active{
   background-color: gray;
   color: white;
 }
-
-.opt {
-  float: right;
-}
-
+  
 .logo {
-  height: 7em;
+  vertical-align: middle;
+  height: 6em;
+  margin: auto;
+  display: inline-flex;
 }
-
+  
 /* footer */
 .footer {
-  background-color: gray;
+  background-color: #bfb671;
   color: black;
   height: 175px;
   position: relative;
   text-align: center;
   width: 100%;
-  padding-top: 50px;
+  padding-top: 25px;
 }
 .footer .content {
   height: 175px;
   display: flex;
 }
-
+  
 .footer .content .contacts{
   flex: 1;
 }
@@ -70,7 +79,7 @@ html, body {
   margin-bottom: 15px;
   font-size: 28px;
 }
-
+  
 .footer .content .follow{
   flex: 1;
 }
@@ -84,15 +93,33 @@ html, body {
   border-radius: 5px;
 }
 .footer .content .follow .social a:hover{
-  color: blue;
-  border: 2px solid blue;
+  color: #006b9f;
+  border: 2px solid #006b9f;
 }
+
+/*index.html*/
+
+
+
+
+
+/*about.html*/
+
+
+
+
+
+/*register.html*/
+
+
+
 
 /* Media Querys per google standards 425 mobile, 426-769 tablet, 770-max laptop */
 @media screen and (min-width: 426px) {
 
 }
-
+    
 @media screen and (min-width: 770px) {
 
+      
 }
