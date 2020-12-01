@@ -1,1 +1,125 @@
+html, body {
+  height: 100%;
+  font-family: 'Poppins', arial, sans-serif;
+  background-color: #e4e3b1;
+}
+  
+/* Top Nav Bar */
+h1 {
+  font-size: 30px;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  color:#006b9f;
+}
+nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  font-size: 24px;
+  text-align: center;
+}
+  
+nav li {
+  display: inline;
+  font-size: 20px;
+  padding: 15px;
+}
+  
+nav a{
+  background-color: #006b9f;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0,0,0,.5);
+  display: inline-block;
+  line-height: 1.5em;
+  color: white;
+  text-align: center;
+  padding: 1.5em 3.5em;
+  text-decoration: none;
+  border-radius: 5px;
+}
+  
+a:hover{
+  background-color: gray;
+  color: black;
+}
+  
+a.active{
+  background-color: gray;
+  color: white;
+}
+  
+.logo {
+  vertical-align: middle;
+  height: 6em;
+  margin: auto;
+  display: inline-flex;
+}
+  
+/* footer */
+.footer {
+  background-color: #bfb671;
+  color: black;
+  height: 175px;
+  position: relative;
+  text-align: center;
+  width: 100%;
+  padding-top: 25px;
+}
+.footer .content {
+  height: 175px;
+  display: flex;
+}
+  
+.footer .content .contacts{
+  flex: 1;
+}
+.footer .content .contacts span{
+  display: block;
+  margin-bottom: 15px;
+  font-size: 28px;
+}
+  
+.footer .content .follow{
+  flex: 1;
+}
+.footer .content .follow .social a{
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  display: inline-block;
+  color: black;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+.footer .content .follow .social a:hover{
+  color: #006b9f;
+  border: 2px solid #006b9f;
+}
 
+/*index.html*/
+
+
+
+
+
+/*about.html*/
+
+
+
+
+
+/*register.html*/
+
+
+
+
+/* Media Querys per google standards 425 mobile, 426-769 tablet, 770-max laptop */
+@media screen and (min-width: 426px) {
+
+}
+    
+@media screen and (min-width: 770px) {
+
+      
+}
