@@ -3,20 +3,27 @@ html, body {
 }
 
 /* Top Nav Bar */
-.top-nav {
+h1 {
+  font-size: 24px;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  color:blue;
+}
+nav {
   list-style-type: none;
   margin: 0;
   padding: 0;
   font-size: 24px;
 }
 
-.top-nav li {
+nav li {
   display: inline;
   font-size: 20px;
   padding: 15px;
 }
 
-.top-nav .opt a{
+nav a{
   background-color: blue;
   overflow: hidden;
   box-shadow: 0 2px 4px rgba(0,0,0,.5);
@@ -29,18 +36,14 @@ html, body {
   border-radius: 5px;
 }
 
-.top-nav .opt a:hover{
+a:hover{
   background-color: gray;
   color: black;
 }
 
-.top-nav .opt a.active{
+a.active{
   background-color: gray;
   color: white;
-}
-
-.opt {
-  float: right;
 }
 
 .logo {
