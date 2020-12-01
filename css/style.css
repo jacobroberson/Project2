@@ -98,9 +98,23 @@ a.active{
 }
 
 /*index.html*/
-
-
-
+.sample {
+    text-align: center;
+    padding-top: 25px;
+  }
+  .sample h2{
+    font-size: 35px;
+    font-family: 'Catamaran', arial, sans-serif;
+  }
+  .sample .announce h2{
+    text-decoration: underline;
+  }
+  .sample .announce p{
+    font-size: 30px;
+  }
+  .slide{
+    width: 85%;
+  }
 
 
 /*about.html*/
