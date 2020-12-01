@@ -100,14 +100,14 @@ a.active{
   text-align: center;
   padding-top: 25px;
 }
+.sample h2{
+  font-size: 35px;
+  font-family: 'Catamaran', sans-serif;
+}
 .sample .announce h2{
-  font-size: 30px;
   text-decoration: underline;
 }
 .sample .announce p{
-  font-size: 25px;
-}
-.sample .att h2{
   font-size: 30px;
 }
 .slide{
