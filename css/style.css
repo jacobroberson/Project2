@@ -98,13 +98,80 @@ a.active{
 }
 
 /*index.html*/
-
-
-
+.sample {
+    text-align: center;
+    padding-top: 25px;
+  }
+  .sample h2{
+    font-size: 35px;
+    font-family: 'Catamaran', arial, sans-serif;
+  }
+  .sample .announce h2{
+    text-decoration: underline;
+  }
+  .sample .announce p{
+    font-size: 30px;
+  }
+  .slide{
+    width: 85%;
+  }
 
 
 /*about.html*/
-
+/*TypeScale from type-scale.com*/
+.middleabout h1 {
+  font-family: 'Catamaran', sans-serif;
+  font-size: 2.441em;
+}
+.middleabout h2 {
+  font-size: 1.563em;
+  text-align: center;
+}
+.middleabout ul p {
+  text-align: center;
+  font-style: italic;
+  font-style: normal;
+  text-decoration: underline;
+}
+.middleabout li {
+  text-align: center;
+  font-style: italic;
+  list-style-type: none;
+}
+.history {
+  padding-bottom: 3em;
+}
+.history p{
+  text-align: center;
+  font-size: 1.25em;  
+}
+.constitution {
+  text-align: center;
+}
+.journal {
+  text-align: center;
+}
+.accordion {
+  background-color: blue;
+  color: white;
+  cursor: pointer;
+  width: 75%;
+  text-align: center;
+  margin: .5em;
+  transition: 0.2s;
+}
+.accordion:hover {
+  background-color: gray;
+  color: black;
+}
+.panel{
+  padding: 18px 0;
+  display: none;
+  overflow: hidden;
+}
+.button h2 {
+  font-size: 2.441em;
+}
 
 
 
@@ -116,10 +183,49 @@ a.active{
 
 /* Media Querys per google standards 425 mobile, 426-769 tablet, 770-max laptop */
 @media screen and (min-width: 426px) {
+/*index.html*/
 
+
+
+
+
+/*about.html*/
+.middleabout h1 {
+  line-height: .5em;
+}
+.middleabout h2 {
+  font-size: 1.953em;
+  text-align: left;
+  font-weight: bolder;
+  text-indent: 2em;
+  line-height: .5em;
+  padding: .25rem;
+}
+.middleabout p {
+  text-align: left;
+}
+
+
+
+/*register.html*/
 }
     
 @media screen and (min-width: 770px) {
+/*index.html*/
 
-      
+
+
+
+
+/*about.html*/
+.middleabout ul p {
+  font-size: 1.953em;
+}
+.middleabout li {
+  font-size: 1.563em;
+}
+
+
+
+/*register.html*/
 }
