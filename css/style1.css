@@ -113,6 +113,9 @@ a.active{
 .slide{
   width: 85%;
 }
+html{
+  background-color: grey;
+}
 
 /* Media Querys per google standards 425 mobile, 426-769 tablet, 770-max laptop */
 @media screen and (min-width: 426px) {
@@ -133,9 +136,15 @@ a.active{
 .slide{
   width: 80%;
 }
+html{
+  background-color: green;
+}
 }
 
 @media screen and (min-width: 770px) {
+  html{
+    background-color: yellow;
+  }
   .sample {
     text-align: center;
     padding-top: 25px;
@@ -153,4 +162,5 @@ a.active{
   .slide{
     width: 75%;
   }
+  
 }
