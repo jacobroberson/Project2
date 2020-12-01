@@ -50,7 +50,7 @@ a.active{
 
 .logo {
   vertical-align: middle;
-  height: 7em;
+  height: 6em;
   margin: auto;
   display: inline-flex;
 }
@@ -103,7 +103,7 @@ a.active{
 }
 .sample h2{
   font-size: 35px;
-  font-family: 'Catamaran', sans-serif;
+  font-family: 'Catamaran', arial, sans-serif;
 }
 .sample .announce h2{
   text-decoration: underline;
