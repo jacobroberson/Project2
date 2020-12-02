@@ -19,8 +19,10 @@ nav {
   text-align: center;
   
 }
-nav ul{
+nav ul {
   padding-inline-start: 0px;
+  margin-block-start: .5em;
+  margin-block-end: 0px;
 }
 
 nav li {
@@ -37,7 +39,7 @@ nav a{
   line-height: 1.5em;
   color: white;
   text-align: center;
-  padding: 0;
+  padding: 5px;
   text-decoration: none;
   border-radius: 5px;
   width: 85%;
@@ -67,57 +69,73 @@ a.active{
   position: relative;
   text-align: center;
   width: 100%;
-  padding-top: 25px;
+  padding-top: 10px;
+  padding-bottom: 15px;
 }
 .footer .content {
   height: 175px;
   display: flex;
 }
-  
+
+.footer .content h1{
+  font-size: 1.563em;
+  padding-bottom: 5px;
+}
+
 .footer .content .contacts{
   flex: 1;
 }
+
 .footer .content .contacts span{
   display: block;
   margin-bottom: 15px;
-  font-size: 28px;
+  font-size: 1.25em;
 }
-  
+
 .footer .content .follow{
   flex: 1;
 }
 .footer .content .follow .social a{
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
   text-align: center;
   display: inline-block;
   color: black;
   border: 2px solid black;
   border-radius: 5px;
+  font-size: 2.441em;
+  text-decoration: none;
+  padding: 2px 10px;
 }
 .footer .content .follow .social a:hover{
   color: #006b9f;
   border: 2px solid #006b9f;
+  text-decoration: none;
 }
 
 /*index.html*/
 .sample {
-    text-align: center;
-    padding-top: 25px;
-  }
-  .sample h2{
-    font-size: 35px;
-    font-family: 'Catamaran', arial, sans-serif;
-  }
-  .sample .announce h2{
-    text-decoration: underline;
-  }
-  .sample .announce p{
-    font-size: 30px;
-  }
-  .slide{
-    width: 85%;
-  }
+  text-align: center;
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+}
+.sample h2{
+  font-family: 'Catamaran', arial, sans-serif;
+  font-size: 1.563em;
+  margin-block-start: .5em;
+  margin-block-end: 0px;
+}
+.sample .announce h2{
+  text-decoration: underline;
+}
+.sample .announce p{
+  font-size: 1.25em;
+  margin-block-start: .5em;
+  margin-block-end: 0px;
+}
+.slide{
+  width: 85%;
+}
 
 
 /*about.html*/
@@ -230,13 +248,30 @@ nav li {
   font-size: 1.953em;
 }
 
-
 /*Footer*/
+.footer .content h1{
+  font-size: 1.953em;
+}
+
+.footer .content .contacts span{
+  margin-bottom: 10px;
+  font-size: 1.563em;
+}
+
+.footer .content .follow .social a{
+  font-size: 2.441em;
+  padding: 8px 10px;
+}
+
 /*index.html*/
-
-
-
-
+.sample h2{
+  font-size: 1.953em;
+}
+.sample .announce p{
+  font-size: 1.563em;
+  margin-block-start: .75em;
+  margin-block-end: .5px;
+}
 
 /*about.html*/
 .middleabout h1 {
@@ -283,10 +318,37 @@ nav a{
 
 
 /*Footer*/
-  /*index.html*/
+.footer {
+  height: 225px;
+}
+.footer .content {
+  height: 225px;
+}
 
+.footer .content h1{
+  font-size: 2.441em;
+}
 
+.footer .content .contacts span{
+  margin-bottom: 15px;
+  font-size: 1.953em;
+}
 
+.footer .content .follow .social a{
+  width: 50px;
+  height: 50px;
+  font-size: 3.052em;
+  padding: 10px 10px;
+}
+
+/*index.html*/
+
+.sample h2{
+  font-size: 2.441em;
+}
+.sample .announce p{
+  font-size: 1.953em;
+}
 
 
 /*about.html*/
