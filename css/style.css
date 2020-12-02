@@ -119,27 +119,34 @@ a.active{
 
 /*about.html*/
 /*TypeScale from type-scale.com*/
+.middleabout {
+  text-align: center;
+  font-family: 'Poppins', arial, sans-serif;
+}
 .middleabout h1 {
   font-family: 'Catamaran', sans-serif;
   font-size: 2.441em;
+  margin: .5%;
 }
 .middleabout h2 {
   font-size: 1.563em;
   text-align: center;
+  margin: .5%;
 }
-.middleabout ul p {
+.listheading {
   text-align: center;
   font-style: italic;
   font-style: normal;
   text-decoration: underline;
 }
+.middleabout ul {
+  padding-inline-start: 0px;
+}
 .middleabout li {
+  padding: none;
   text-align: center;
   font-style: italic;
   list-style-type: none;
-}
-.history {
-  padding-bottom: 3em;
 }
 .history p{
   text-align: center;
@@ -155,7 +162,7 @@ a.active{
   background-color: blue;
   color: white;
   cursor: pointer;
-  width: 75%;
+  width: 90%;
   text-align: center;
   margin: .5em;
   transition: 0.2s;
@@ -169,7 +176,7 @@ a.active{
   display: none;
   overflow: hidden;
 }
-.button h2 {
+button {
   font-size: 2.441em;
 }
 
@@ -229,13 +236,17 @@ a.active{
   line-height: .5em;
   padding: .25rem;
 }
-.middleabout p {
+.history p{
   text-align: left;
+}
+.history .listheading {
+	text-align: center;
 }
 
 
 
 /*register.html*/
+
 }
     
 @media screen and (min-width: 770px) {
@@ -246,7 +257,7 @@ a.active{
 
 
 /*about.html*/
-.middleabout ul p {
+.listheading {
   font-size: 1.953em;
 }
 .middleabout li {
@@ -256,4 +267,5 @@ a.active{
 
 
 /*register.html*/
+
 }
