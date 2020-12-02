@@ -4,28 +4,31 @@ html, body {
   background-color: #e4e3b1;
 }
   
-/* Top Nav Bar */
+/* Top Nav Bar take 2*/
 h1 {
-  font-size: 30px;
-  padding: 0;
+  font-size: 1.563em;
+  padding: 0px 1.563em;
   margin: 0;
   text-align: center;
   color:#006b9f;
 }
 nav {
   list-style-type: none;
-  margin: 0;
   padding: 0;
-  font-size: 24px;
+  margin: 0;
   text-align: center;
-}
   
+}
+nav ul{
+  padding-inline-start: 0px;
+}
+
 nav li {
   display: inline;
-  font-size: 20px;
-  padding: 15px;
+  font-size: 1.563em;
+  padding: 0px;
 }
-  
+
 nav a{
   background-color: #006b9f;
   overflow: hidden;
@@ -34,26 +37,26 @@ nav a{
   line-height: 1.5em;
   color: white;
   text-align: center;
-  padding: 1.5em 3.5em;
+  padding: 0;
   text-decoration: none;
   border-radius: 5px;
+  width: 85%;
 }
-  
+
 a:hover{
   background-color: gray;
   color: black;
 }
-  
+
 a.active{
   background-color: gray;
   color: white;
 }
-  
+
 .logo {
-  vertical-align: middle;
-  height: 6em;
+  height: 5em;
   margin: auto;
-  display: inline-flex;
+  display: block;
 }
   
 /* footer */
@@ -119,27 +122,34 @@ a.active{
 
 /*about.html*/
 /*TypeScale from type-scale.com*/
+.middleabout {
+  text-align: center;
+  font-family: 'Poppins', arial, sans-serif;
+}
 .middleabout h1 {
   font-family: 'Catamaran', sans-serif;
   font-size: 2.441em;
+  margin: .5%;
 }
 .middleabout h2 {
   font-size: 1.563em;
   text-align: center;
+  margin: .5%;
 }
-.middleabout ul p {
+.listheading {
   text-align: center;
   font-style: italic;
   font-style: normal;
   text-decoration: underline;
 }
+.middleabout ul {
+  padding-inline-start: 0px;
+}
 .middleabout li {
+  padding: none;
   text-align: center;
   font-style: italic;
   list-style-type: none;
-}
-.history {
-  padding-bottom: 3em;
 }
 .history p{
   text-align: center;
@@ -152,10 +162,10 @@ a.active{
   text-align: center;
 }
 .accordion {
-  background-color: blue;
+  background-color: #006b9f;
   color: white;
   cursor: pointer;
-  width: 75%;
+  width: 90%;
   text-align: center;
   margin: .5em;
   transition: 0.2s;
@@ -169,7 +179,7 @@ a.active{
   display: none;
   overflow: hidden;
 }
-.button h2 {
+button {
   font-size: 2.441em;
 }
 
@@ -211,6 +221,17 @@ a.active{
 
 /* Media Querys per google standards 425 mobile, 426-769 tablet, 770-max laptop */
 @media screen and (min-width: 426px) {
+/*Top Nav*/
+h1 {
+  font-size: 1.953em;
+}
+
+nav li {
+  font-size: 1.953em;
+}
+
+
+/*Footer*/
 /*index.html*/
 
 
@@ -229,24 +250,47 @@ a.active{
   line-height: .5em;
   padding: .25rem;
 }
-.middleabout p {
+.history p{
   text-align: left;
+}
+.history .listheading {
+	text-align: center;
 }
 
 
 
 /*register.html*/
+
 }
     
 @media screen and (min-width: 770px) {
-/*index.html*/
+/*Top Nav*/
+nav li {
+  padding: 10px;
+}
+
+nav a{
+  padding: 1.5em 1.5em;
+  border-radius: 8px;
+  width: 200px;
+}
+
+.logo {
+  vertical-align: middle;
+  height: 5.5em;
+  display: inline-flex;
+}
+
+
+/*Footer*/
+  /*index.html*/
 
 
 
 
 
 /*about.html*/
-.middleabout ul p {
+.listheading {
   font-size: 1.953em;
 }
 .middleabout li {
@@ -256,4 +300,5 @@ a.active{
 
 
 /*register.html*/
+
 }
