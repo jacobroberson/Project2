@@ -7,7 +7,7 @@ html, body {
 /* Top Nav Bar */
 h1 {
   font-size: 1.563em;
-  padding: 0px 15px;
+  padding: 0px 1.563em;
   margin: 0;
   text-align: center;
   color:#006b9f;
@@ -103,7 +103,6 @@ a.active{
 /* Middle Information */
 .sample {
   text-align: center;
-  padding-top: 25px;
 }
 .sample h2{
   font-size: 35px;
@@ -122,63 +121,29 @@ a.active{
 /* Media Querys per google standards 425 mobile, 426-769 tablet, 770-max laptop */
 @media screen and (min-width: 426px) {
   h1 {
-    font-size: 24px;
-  }
-  
-  nav {
-    margin: 0;
-    padding: 0;
-    text-align: center;
+    font-size: 1.953em;
   }
   
   nav li {
-    display: inline;
-    padding: 5px;
-    width: 200px;
+    font-size: 1.953em;
   }
-  
-  nav a{
-    line-height: 1.5em;
-    padding: 1.5em 1.5em;
-    border-radius: 5px;
-    width: 150px;
-    font-size: 15px;
-  }
-  
-  .logo {
-    height: 5em;
-  }
+
 }
 
 @media screen and (min-width: 770px) {
-  h1 {
-    font-size: 30px;
-  }
-  
-  nav {
-    padding: 0;
-    margin: 0;
-    font-size: 24px;
-    text-align: center;
-  }
-  
   nav li {
-    display: inline;
-    font-size: 20px;
-    padding: 15px;
+    padding: 10px;
   }
   
   nav a{
-    line-height: 1.5em;
     padding: 1.5em 1.5em;
-    border-radius: 5px;
+    border-radius: 8px;
     width: 200px;
   }
   
   .logo {
     vertical-align: middle;
-    height: 6em;
-    margin: auto;
+    height: 5.5em;
     display: inline-flex;
   }
   
