@@ -19,8 +19,10 @@ nav {
   text-align: center;
   
 }
-nav ul{
+nav ul {
   padding-inline-start: 0px;
+  margin-block-start: .5em;
+  margin-block-end: 0px;
 }
 
 nav li {
@@ -37,7 +39,7 @@ nav a{
   line-height: 1.5em;
   color: white;
   text-align: center;
-  padding: 0;
+  padding: 5px;
   text-decoration: none;
   border-radius: 5px;
   width: 85%;
@@ -113,22 +115,27 @@ a.active{
 
 /*index.html*/
 .sample {
-    text-align: center;
-    padding-top: 25px;
-  }
-  .sample h2{
-    font-size: 35px;
-    font-family: 'Catamaran', arial, sans-serif;
-  }
-  .sample .announce h2{
-    text-decoration: underline;
-  }
-  .sample .announce p{
-    font-size: 30px;
-  }
-  .slide{
-    width: 85%;
-  }
+  text-align: center;
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+}
+.sample h2{
+  font-family: 'Catamaran', arial, sans-serif;
+  font-size: 1.563em;
+  margin-block-start: .5em;
+  margin-block-end: 0px;
+}
+.sample .announce h2{
+  text-decoration: underline;
+}
+.sample .announce p{
+  font-size: 1.25em;
+  margin-block-start: .5em;
+  margin-block-end: 0px;
+}
+.slide{
+  width: 85%;
+}
 
 
 /*about.html*/
@@ -257,10 +264,14 @@ nav li {
 }
 
 /*index.html*/
-
-
-
-
+.sample h2{
+  font-size: 1.953em;
+}
+.sample .announce p{
+  font-size: 1.563em;
+  margin-block-start: .75em;
+  margin-block-end: .5px;
+}
 
 /*about.html*/
 .middleabout h1 {
@@ -332,8 +343,12 @@ nav a{
 
 /*index.html*/
 
-
-
+.sample h2{
+  font-size: 2.441em;
+}
+.sample .announce p{
+  font-size: 1.953em;
+}
 
 
 /*about.html*/
