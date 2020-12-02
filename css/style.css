@@ -276,6 +276,7 @@ nav li {
 /*about.html*/
 .middleabout h1 {
   line-height: .5em;
+  padding-top: 1em;
 }
 .middleabout h2 {
   font-size: 1.953em;
